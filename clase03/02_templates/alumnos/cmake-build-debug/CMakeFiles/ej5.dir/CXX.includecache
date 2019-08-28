@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/clase03/02_templates/alumnos/src/Diccionario.cpp
+vector
+-
+Diccionario.h
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/clase03/02_templates/alumnos/src/Diccionario.h
+
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/clase03/02_templates/alumnos/src/Diccionario.h
+vector
+-
+
