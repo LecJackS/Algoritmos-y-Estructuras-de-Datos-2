@@ -211,8 +211,6 @@ void Fecha::sumar_periodo(Periodo p) {
     sumar_anios(p.anios());
 }
 
-
-
 // Ejercicio 8: clase Intervalo
 class Intervalo{
     public:
@@ -221,11 +219,9 @@ class Intervalo{
         Fecha hasta() const;
         Dia enDias() const;
 
-
     private:
         Fecha _desde;
         Fecha _hasta;
-
 };
 
 Intervalo::Intervalo(Fecha desde, Fecha hasta)
@@ -240,6 +236,39 @@ Fecha Intervalo::hasta() const{
     return _hasta;
 }
 
+Dia fechaADias(Fecha fecha){
+    Dia dias_acum = 0;
+    // Sumo dias del corriente mes
+    dias_acum += fecha.dia();
+    // Sumo meses completados del corriente anio
+    Mes aux_mes = fecha.mes();
+    while(aux_mes > 1){
+        aux_mes -= 1;
+        dias_acum += diasDelMesDe(aux_mes, fecha.anio());
+    }
+    // Sumo anios completos
+    Anio aux_anio = fecha.anio();
+    while(aux_anio > 0){
+        aux_anio -= 1;
+        if (esBisiesto(aux_anio)){
+            dias_acum += 366;
+        }
+        else{
+            dias_acum += 365;
+        }
+    }
+    return dias_acum;
+}
+
 Dia Intervalo::enDias() const {
-    return 0;
+    // Definir el operador resta en Fecha es medio muerte
+    // Paso todo a dias y hago la resta:
+    Dia dias_acum_desde = fechaADias(_desde);
+    Dia dias_acum_hasta = fechaADias(_hasta);
+
+    //cout << "Desde: " << dias_acum_desde << endl;
+    //cout << "Hasta: " << dias_acum_hasta << endl;
+
+    Dia diferencia = dias_acum_hasta - dias_acum_desde;
+    return diferencia;
 }
