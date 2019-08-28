@@ -1,7 +1,8 @@
 //////////////
 // PRELUDIO //
 //////////////
-
+#include<vector>
+using namespace std;
 // Typedef
 typedef int Anio;
 typedef int Mes;
@@ -42,65 +43,203 @@ bool esBisiesto(Anio anio) {
     return true;
 }
 
+map<Mes,int> mes_a_dias = {{ENERO,31},
+                           {FEBRERO,28},
+                           {MARZO,31},
+                           {ABRIL,30},
+                           {MAYO,31},
+                           {JUNIO,30},
+                           {JULIO,31},
+                           {AGOSTO,31},
+                           {SEPTIEMBRE,30},
+                           {OCTUBRE,31},
+                           {NOVIEMBRE,30},
+                           {DICIEMBRE,31}
+          };
 // Ejercicio 2: diasEnMes
-//
+int diasEnMes(Anio anio, Mes mes) {
+    if (mes == FEBRERO && esBisiesto(anio)){
+        return mes_a_dias[mes] + 1;
+    }
+    else{
+        return mes_a_dias[mes];
+    }
+}
 //
 
-// Para ejercicio 6
-class Periodo;
+// Ejercicio 6: clase período
+class Periodo {
+public:
+    // Constructor
+    Periodo(Anio anios, Mes meses, Dia dias);
+    Anio anios() const;
+    Mes meses() const;
+    Dia dias()  const;
+private:
+    Anio _anios;
+    Mes _meses;
+    Dia _dias;
+};
+
+Periodo::Periodo(Anio anios, Mes meses, Dia dias)
+        : _anios(anios), _meses(meses), _dias(dias) {
+}
+
+Anio Periodo::anios() const {
+    return _anios;
+}
+
+Mes Periodo::meses() const {
+    return _meses;
+}
+
+Dia Periodo::dias() const {
+    return _dias;
+}
 
 class Fecha {
- public:
-  // pre: anio > 0, mes \in [1, 12], dia \in [1, diasEnMes(anio, mes)]
-  // Constructor
-  Fecha(Anio anio, Mes mes, Dia dia);
-  // Metodos
-  Anio anio() const;
-  Mes mes() const;
-  Dia dia() const;
-  // Operadores
-  bool operator==(Fecha o) const;
-  bool operator<(Fecha o) const;
+    public:
+        // pre: anio > 0, mes \in [1, 12], dia \in [1, diasEnMes(anio, mes)]
+        // Constructor
+        Fecha(Anio anio, Mes mes, Dia dia);
+        // Metodos
+        Anio anio() const;
+        Mes mes() const;
+        Dia dia() const;
+        // Operadores de comparacion
+        bool operator==(Fecha o) const;
+        bool operator<(Fecha o) const;
+        bool operator!=(Fecha o) const;
+        // Ejercicio 7: sumar período a fecha
+        void sumar_periodo(Periodo p);
+    private:
+        Anio _anio;
+        Mes _mes;
+        Dia _dia;
 
-  // Ejercicio 7: sumar período a fecha
-
- private:
-  Anio _anio;
-  Mes _mes; 
-  Dia _dia;
-
-  // Ejercicio 7: sumar a fecha
-  void sumar_anios(int anios);
-  void sumar_meses(int meses);
-  void sumar_dias(int dias);
+        // Ejercicio 7: sumar a fecha
+        void sumar_anios(Anio anios);
+        void sumar_meses(Mes meses);
+        void sumar_dias(Dia dias);
 };
 
 // Ejercicio 3: Constructor y métodos de Fecha
-Fecha::Fecha(Anio anio, Mes mes, Dia dia) : Fecha() {
+Fecha::Fecha(Anio anio, Mes mes, Dia dia)
+    : _anio(anio), _mes(mes), _dia(dia) {
 }
 
 Anio Fecha::anio() const {
+    return _anio;
 }
 
-// Fecha::mes()
+Mes Fecha::mes() const {
+    return _mes;
+}
 
-// dia
+Dia Fecha::dia() const {
+    return _dia;
+}
 
 
 // Ejercicio 4: comparadores
 bool Fecha::operator==(Fecha o) const {
+    return (_anio == o.anio() &&
+            _mes  == o.mes()  &&
+            _dia  == o.dia());
 }
 
 // Fecha::operator<
-
-
-// Ejercicio 5: comparador distinto
-bool operator!=(Fecha f1, Fecha f2) {
+bool Fecha::operator<(Fecha o) const {
+    if (_anio < o.anio()) return true;
+    if (_anio > o.anio()) return false;
+    if (_mes < o.mes()) return true;
+    if (_mes > o.mes()) return false;
+    if (_dia < o.dia()) {
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
-// Ejercicio 6: clase período
-class Periodo {
-};
+// Ejercicio 5: comparador distinto
+bool Fecha::operator!=(Fecha o) const{
+    return (_anio != o.anio() ||
+            _mes  != o.mes()  ||
+            _dia  != o.dia());
+}
+
+// Parte del 7
+void Fecha::sumar_anios(Anio anios) {
+    _anio += anios;
+}
+
+void Fecha::sumar_meses(Mes meses) {
+    _mes += meses;
+}
+
+void Fecha::sumar_dias(Dia dias) {
+    _dia += dias;
+}
+
+Dia diasDelMesDe(Mes mes, Anio anio){
+    if (mes == FEBRERO && esBisiesto(anio)){
+        return mes_a_dias[mes]+1;
+    }
+    else{
+        return mes_a_dias[mes];
+    }
+}
+
+void Fecha::sumar_periodo(Periodo p) {
+    sumar_dias(p.dias());
+    while(_dia > diasDelMesDe(_mes, _anio)){
+        _dia -= diasDelMesDe(_mes, _anio);
+        _mes += 1;
+        if(_mes > 12){
+            // Diciembre + 1 = Enero
+            _anio += 1;
+            _mes -= 12;
+        }
+    }
+    sumar_meses(p.meses());
+    while(_mes > 12){
+        // Diciembre + 1 = Enero
+        _anio += 1;
+        _mes -= 12;
+    }
+    sumar_anios(p.anios());
+}
+
 
 
 // Ejercicio 8: clase Intervalo
+class Intervalo{
+    public:
+        Intervalo(Fecha desde, Fecha hasta);
+        Fecha desde() const;
+        Fecha hasta() const;
+        Dia enDias() const;
+
+
+    private:
+        Fecha _desde;
+        Fecha _hasta;
+
+};
+
+Intervalo::Intervalo(Fecha desde, Fecha hasta)
+    : _desde(desde), _hasta(hasta) {
+}
+
+Fecha Intervalo::desde() const{
+    return _desde;
+}
+
+Fecha Intervalo::hasta() const{
+    return _hasta;
+}
+
+Dia Intervalo::enDias() const {
+    return 0;
+}
