@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="algo2_labo_clase4" targetName="gtest_main" />
+      <config projectName="algo2_labo_clase4" targetName="correrValgrind" />
+      <config projectName="algo2_labo_clase4" targetName="correrTests" />
+      <config projectName="algo2_labo_clase4" targetName="gtest" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="196948ee-4147-4e80-aadb-6cd1271353de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Reversi/.idea/alumnos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reversi/src/Reversi.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reversi2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reversi2/.idea/Reversi2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reversi2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reversi2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reversi2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reversi2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reversi2/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reversi2/reversi.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reversi2/reversi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrValgrind.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrValgrind.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrValgrind.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrValgrind.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest.dir/cmake_clean_target.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest_main.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest_main.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/algo2_labo_clase4.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/.idea/clase03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase04/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase04/.idea/clase04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase04/.idea/dictionaries/jack.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase04/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase04/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase04/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej2.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej3.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej3.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej3.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej4.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej4.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej4.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej4.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej4.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej5.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej5.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej5.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej5.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej5.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej6.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej6.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej6.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej6.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej6.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej6.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej7.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej7.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej7.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej7.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej7.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej7.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej8.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej8.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej8.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej8.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej8.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/ej8.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/test_algobot.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/test_algobot.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/test_algobot.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/test_algobot.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/test_algobot.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/CMakeFiles/test_algobot.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/solucion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/solucion.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../clase03/02_templates/alumnos/cmake-build-debug/tests/google-test/Makefile" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1RkKRlt7UXqwdGjKNntYGXVqgLq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Taller 2 - Conjunto ABB" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google Test.correrTests">
+    <configuration name="correrTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_labo_clase4" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algo2_labo_clase4" RUN_TARGET_NAME="correrTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lista_test.test_agregar_un_elemento_adelante" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_labo_clase4" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algo2_labo_clase4" RUN_TARGET_NAME="correrTests" TEST_CLASS="lista_test" TEST_METHOD="test_agregar_un_elemento_adelante" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lista_test.test_constructor_vacio" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_labo_clase4" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algo2_labo_clase4" RUN_TARGET_NAME="correrTests" TEST_CLASS="lista_test" TEST_METHOD="test_constructor_vacio" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lista_test.test_eliminar_elementos" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_labo_clase4" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algo2_labo_clase4" RUN_TARGET_NAME="correrTests" TEST_CLASS="lista_test" TEST_METHOD="test_eliminar_elementos" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="correrValgrind" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_labo_clase4" TARGET_NAME="correrValgrind" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algo2_labo_clase4" RUN_TARGET_NAME="correrTests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_labo_clase4" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_labo_clase4" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.correrValgrind" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="Google Test.correrTests" />
+      <item itemvalue="Google Test.lista_test.test_constructor_vacio" />
+      <item itemvalue="Google Test.lista_test.test_agregar_un_elemento_adelante" />
+      <item itemvalue="Google Test.lista_test.test_eliminar_elementos" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.lista_test.test_eliminar_elementos" />
+        <item itemvalue="Google Test.lista_test.test_agregar_un_elemento_adelante" />
+        <item itemvalue="Google Test.lista_test.test_constructor_vacio" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="196948ee-4147-4e80-aadb-6cd1271353de" name="Default Changelist" comment="" />
+      <created>1570205647901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570205647901</updated>
+      <workItem from="1570205649159" duration="6176000" />
+      <workItem from="1570214744822" duration="1103000" />
+      <workItem from="1570216281443" duration="8500000" />
+      <workItem from="1570227055147" duration="3000" />
+      <workItem from="1570227442226" duration="5000" />
+      <workItem from="1570227460677" duration="644000" />
+      <workItem from="1570846650770" duration="4119000" />
+      <workItem from="1570892356249" duration="392000" />
+      <workItem from="1571007579156" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tests/gtest-1.8.1/gtest.h</url>
+          <line>21244</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tests/gtest-1.8.1/gtest.h</url>
+          <line>21243</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

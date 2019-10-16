@@ -1,0 +1,6 @@
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Taller 1 - Lista enlazada/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Taller 1 - Lista enlazada/cmake-build-debug/CMakeFiles/correrValgrind.dir
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Taller 1 - Lista enlazada/cmake-build-debug/CMakeFiles/correrTests.dir
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Taller 1 - Lista enlazada/cmake-build-debug/CMakeFiles/gtest.dir
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Taller 1 - Lista enlazada/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Taller 1 - Lista enlazada/cmake-build-debug/CMakeFiles/gtest_main.dir

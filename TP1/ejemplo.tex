@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{caratula}
+\usepackage{aed2-tad,aed2-symb}
+
+\materia{Algoritmos y Estructuras de Datos II}
+\titulo{Trabajo Práctico 1}
+\subtitulo{``Romeo y Julieta''}
+\integrante{Romeo Montesco}{123/4}{romeo@dc.uba.ar}
+\integrante{Julieta Capuleto}{432/1}{julieta@dc.uba.ar}
+
+\begin{document}
+
+\maketitle
+
+\section{Símbolos útiles }
+
+\begin{itemize}
+\item Relaciones de equivalencia: $\igobs, \equiv$
+\item Secuencias: $\secuvacia, \puntito, \circulito$
+\item Conjuntos: $\emptyset, \cup, \cap, \setminus, \{...|...\}$
+\item Lógica: $\forall, \exists, \land, \lor, \implies, \iff, \neg, \yluego, \oluego, \impluego$
+\end{itemize}
+
+Detexify es un recurso útil para encontrar símbolos.
+
+\section{Ejemplo de TAD}
+
+\begin{tad}{\tadNombre{Pila}($\alpha$)}
+\tadParametrosFormales{$\alpha$}
+\tadGeneros{pila($\alpha$)}
+\tadUsa{\tadNombre{Bool}}
+\tadExporta{generadores, observadores}
+
+\tadIgualdadObservacional{a}{b}{c}{d}
+
+% El siguiente comando opcional sirve para alinear las signaturas
+% de las operaciones con respecto a un largo fijo.
+% Se puede usar varias veces. El texto es irrelevante, sólo sirve
+% para calcular el largo.
+\tadAlinearFunciones{vacia?}{pila($\alpha$),$\alpha$}
+
+\tadGeneradores
+\tadOperacion{vacía}{}{pila($\alpha$)}{}
+\tadOperacion{meter}{$\alpha$,pila($\alpha$)}{pila}{}
+
+\tadObservadores
+\tadOperacion{vacía?}{pila($\alpha$)}{bool}{}
+\tadOperacion{tope}{pila($\alpha$)/p}{$\alpha$}{$\neg$vacía?($p$)}
+\tadOperacion{sacar}{pila($\alpha$)/p}{pila($\alpha$)}{$\neg$vacía?($p$)}
+
+\tadAxiomas[$\forall$ $p$ : pila($\alpha$), $x$ : $\alpha$]
+
+% El siguiente comando opcional sirve para alinear los axiomas.
+\tadAlinearAxiomas{vacía?(meter($p$, $x$))}
+
+\tadAxioma{vacía?(vacía)}{true}
+\tadAxioma{vacía?(meter($x$, $p$))}{false}
+\medskip
+
+\tadAxioma{tope(meter($x$, $p$))}{$x$}
+\medskip
+
+\tadAxioma{sacar(meter($x$, $p$))}{$p$}
+
+\end{tad}
+
+\section{Ejemplo de módulo}
+
+Ver en \texttt{textmf/tex/latex/aed2-diseno/ejemplo/}.
+
+\end{document}
+

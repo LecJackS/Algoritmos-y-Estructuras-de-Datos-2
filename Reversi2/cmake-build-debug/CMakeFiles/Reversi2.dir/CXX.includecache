@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Reversi2/main.cpp
+iostream
+-
+reversi.cpp
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Reversi2/reversi.cpp
+
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Reversi2/reversi.cpp
+reversi.h
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Reversi2/reversi.h
+vector
+-
+
+/home/jack/Algoritmos-y-Estructuras-de-Datos-2/Reversi2/reversi.h
+vector
+-
+

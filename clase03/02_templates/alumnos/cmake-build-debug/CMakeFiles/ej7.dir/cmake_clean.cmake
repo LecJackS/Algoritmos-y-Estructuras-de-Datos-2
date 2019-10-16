@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ej7.dir/tests/test_diccionario.cpp.o"
   "CMakeFiles/ej7.dir/src/Diccionario.cpp.o"
-  "ej7.pdb"
+  "CMakeFiles/ej7.dir/tests/test_diccionario.cpp.o"
   "ej7"
+  "ej7.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

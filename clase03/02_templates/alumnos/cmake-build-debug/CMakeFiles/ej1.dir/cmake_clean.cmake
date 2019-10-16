@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ej1.dir/tests/ej1_periodo.cpp.o"
   "CMakeFiles/ej1.dir/src/Periodo.cpp.o"
-  "ej1.pdb"
+  "CMakeFiles/ej1.dir/tests/ej1_periodo.cpp.o"
   "ej1"
+  "ej1.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

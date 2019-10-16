@@ -640,7 +640,15 @@
 		<Unit filename="/home/jack/Algoritmos-y-Estructuras-de-Datos-2/clase03/02_templates/alumnos/src/Funciones.cpp">
 			<Option target="ej3"/>
 		</Unit>
+		<Unit filename="/home/jack/Algoritmos-y-Estructuras-de-Datos-2/clase03/02_templates/alumnos/src/Funciones.h">
+			<Option target="ej3"/>
+		</Unit>
 		<Unit filename="/home/jack/Algoritmos-y-Estructuras-de-Datos-2/clase03/02_templates/alumnos/src/Periodo.cpp">
+			<Option target="ej2"/>
+			<Option target="ej1"/>
+			<Option target="ej3"/>
+		</Unit>
+		<Unit filename="/home/jack/Algoritmos-y-Estructuras-de-Datos-2/clase03/02_templates/alumnos/src/Periodo.h">
 			<Option target="ej2"/>
 			<Option target="ej1"/>
 			<Option target="ej3"/>
