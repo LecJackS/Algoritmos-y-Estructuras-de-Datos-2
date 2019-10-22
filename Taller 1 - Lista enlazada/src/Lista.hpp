@@ -16,18 +16,13 @@ Lista<T>::Lista(const Lista<T>& l) : Lista() {
 
 template <typename T>
 Lista<T>::~Lista() {
-    if(_head == NULL){
-        delete(_head);
-    }
-    else{
-        // Itero sobre cada uno de los elementos de la lista para destruirlos
-        // El destructor es llamado con el primer elemento
-        Nodo* temp = _head->next;
-        while(temp != NULL){
-            temp = temp->next;
-            delete(_head);
-            _head = temp;
-        }
+    // Itero sobre cada uno de los elementos de la lista para destruirlos
+    // El destructor es llamado con el primer elemento
+    Nodo* actual = _head;
+    while(actual != NULL){
+        Nodo* siguiente  = actual->next;
+        delete(actual);
+        actual = siguiente;
     }
 }
 
@@ -88,22 +83,32 @@ void Lista<T>::eliminar(Nat i) {
         cout << i << "-esimo no existe! Max len:" << _length << endl;
         return;
     }
+    // Itero sobre cada uno de los elementos de la lista para destruirlos
+    // El destructor es llamado con el primer elemento
+    Nodo* actual = _head;
     if(_length == 1){
-        // Elimino ultimo elemento. Explicito valores por defecto.
+        // Elimino ultimo elemento.
+        delete(_head);
+        // Explicito valores por defecto.
         _head = NULL;
         _last = NULL;
         _length = 0;
+
         return;
     }
     if(i==0){
         // Eliminar primero
+        actual = _head;
         _head = _head->next;
         _head->prev = NULL;
+        delete(actual);
     }
     else if(i == _length-1){
         // Eliminar ultimo
+        actual = _last;
         _last = _last->prev;
         _last->next = NULL;
+        delete(actual);
     }
     else{
         // Eliminar alguno del medio
@@ -115,6 +120,7 @@ void Lista<T>::eliminar(Nat i) {
         Nodo* next_del = to_del->next;
         to_del->prev->next = next_del;
         to_del->next->prev = prev_del;
+        delete(to_del);
     }
     _length--;
 }
