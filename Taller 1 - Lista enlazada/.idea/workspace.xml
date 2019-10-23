@@ -16,10 +16,10 @@
   <component name="ChangeListManager">
     <list default="true" id="196948ee-4147-4e80-aadb-6cd1271353de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/correrTests" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/correrTests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lista.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/cmake-build-debug/CMakeFiles/correrTests.dir/tests/conjunto-tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/cmake-build-debug/CMakeFiles/correrTests.dir/tests/conjunto-tests.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/cmake-build-debug/correrTests" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/cmake-build-debug/correrTests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/src/Conjunto.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/src/Conjunto.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/tests/conjunto-tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/tests/conjunto-tests.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +39,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Taller 2 - Conjunto ABB" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.correrValgrind">
+  <component name="RunManager" selected="Google Test.correrTests">
     <configuration name="correrTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_labo_clase4" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algo2_labo_clase4" RUN_TARGET_NAME="correrTests" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -139,6 +139,7 @@
       <workItem from="1570892356249" duration="392000" />
       <workItem from="1571007579156" duration="2000" />
       <workItem from="1571702715497" duration="4068000" />
+      <workItem from="1571855340751" duration="659000" />
     </task>
     <servers />
   </component>

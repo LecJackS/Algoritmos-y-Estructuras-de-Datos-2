@@ -16,10 +16,10 @@
   <component name="ChangeListManager">
     <list default="true" id="97d18774-ea96-4325-b25f-d86382359040" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Taller 1 - Lista enlazada/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 1 - Lista enlazada/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Taller 1 - Lista enlazada/cmake-build-debug/correrTests" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 1 - Lista enlazada/cmake-build-debug/correrTests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Taller 1 - Lista enlazada/src/Lista.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 1 - Lista enlazada/src/Lista.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/tests/conjunto-tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/tests/conjunto-tests.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/correrTests" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/correrTests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conjunto.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conjunto.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/conjunto-tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conjunto-tests.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Taller 1 - Lista enlazada" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,14 +71,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.correrTests">
+  <component name="RunManager" selected="CMake Application.correrValgrind">
     <configuration name="correrTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="correrValgrind" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrValgrind" CONFIG_NAME="Debug">
+    <configuration name="correrValgrind" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrValgrind" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -115,6 +115,7 @@
       <workItem from="1571007579152" duration="17000" />
       <workItem from="1571074395524" duration="14730000" />
       <workItem from="1571702703104" duration="1861000" />
+      <workItem from="1571855583705" duration="6431000" />
     </task>
     <servers />
   </component>

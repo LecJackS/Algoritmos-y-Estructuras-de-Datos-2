@@ -96,6 +96,7 @@ void Conjunto<T>::remover(const T& clave) {
     // * Tiene dos hijos
     Nodo* nodo = _raiz;
     //From Cormen's book
+    // recorre el arbol hasta encontrar nodo->valor == clave
     while (nodo != NULL && (nodo->valor) != clave){
         if (clave < nodo->valor){
             nodo = nodo->izq;
@@ -109,23 +110,34 @@ void Conjunto<T>::remover(const T& clave) {
     }
 
     if (nodo->izq == NULL){
+//        cout << "NULL a izquierda" << endl;
         transplantar(nodo, nodo->der);
     } else if (nodo->der == NULL) {
+//        cout << "NULL a derecha" << endl;
         transplantar(nodo, nodo->izq);
     } else {
+//        cout << "Ambos hijes" << endl;
         // Busco el nodo minimo
-        Nodo* minimo = _raiz;
+        Nodo* minimo = nodo->der;
+
         //From Cormen's book
         while (minimo->izq != NULL){
             minimo = minimo->izq;
+//            cout << "3. minimo en el while: " << minimo->valor << endl;
+//            cout << "3. minimo parent en el while: " << minimo->parent->valor << endl;
         }
+//        cout << "Minimo > value: " << minimo->valor << endl;
+//        cout << "Minimo > parent > value: " << minimo->parent->valor << endl;
+//        cout << "nodo > value: " << nodo->valor << endl;
         if (minimo->parent != nodo){
+//            cout << "minimo->parent != nodo" << endl;
             transplantar(minimo, minimo->der);
             minimo->der = nodo->der;
             minimo->der->parent = minimo;
         }
         transplantar(nodo, minimo);
         minimo->izq = nodo->izq;
+//        cout << "Luego de transplante, nodo>izq>valor " << nodo -> izq -> valor << endl;
         minimo->izq->parent = minimo;
 
     }

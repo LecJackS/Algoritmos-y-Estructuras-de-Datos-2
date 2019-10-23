@@ -95,7 +95,9 @@ TEST(conjunto_test, test_remover_caso_dos_hijos_simple) {
     c.insertar(7);
     c.insertar(6);
     c.insertar(8);
+
     c.remover(7);
+//    c.mostrar_inorder();
     EXPECT_EQ(c.cardinal(), 4);
 }
 
@@ -139,44 +141,46 @@ int clave(int i) {
 
 TEST(conjunto_test, test_stress) {
     Conjunto<int> c;
-
+// Dejo comentado los couts que use para encontrar el bug mas hdp de la vida
+// Me llevó varios días para encontrar el puntero responsable:
+// en remover, use Nodo* minimo = nodo; en vez de Nodo* minimo = nodo->der;
     // Insertar
-    cout << "Inserta " << NCLAVES << " valores" << endl;
+//    cout << "Inserta " << NCLAVES << " valores" << endl;
     for (int i = 0; i < NCLAVES; i++) {
 	    int k1 = clave(i);
-	    cout << "Clave(" << i << ") = " << k1 << endl;
+//	    cout << "Clave(" << i << ") = " << k1 << endl;
 	    ASSERT_EQ(c.cardinal(), i);
 	    ASSERT_FALSE(c.pertenece(k1));
 	    c.insertar(k1);
 	    ASSERT_TRUE(c.pertenece(k1));
     }
     ASSERT_EQ(c.cardinal(), NCLAVES);
-    cout << "Terminó de insertar los k1 s" << endl << endl;
+//    cout << "Terminó de insertar los k1 s" << endl << endl;
 
     // Insertar de nuevo
-    cout << "Inserta " << NCLAVES << " valores" << endl;
+//    cout << "Inserta " << NCLAVES << " valores" << endl;
     for (int i = 0; i < NCLAVES; i++) {
 	    int k2 = clave(i);
-        cout << "Clave(" << i << ") = " << k2 << endl;
+//        cout << "Clave(" << i << ") = " << k2 << endl;
 	    ASSERT_TRUE(c.pertenece(k2));
 	    c.insertar(k2);
 	    ASSERT_TRUE(c.pertenece(k2));
 	    ASSERT_EQ(c.cardinal(), NCLAVES);
     }
-    cout << "Terminó de insertar los k2 s" << endl << endl;
+//    cout << "Terminó de insertar los k2 s" << endl << endl;
 
-    c.mostrar_inorder();
+//    c.mostrar_inorder();
 
     // Eliminar los valores para i par
-    cout << "Elimina solo las claves pares" << endl;
+//    cout << "Elimina solo las claves pares" << endl;
     for (int i = 0; i < NCLAVES; i++) {
 	    int k3 = clave(i);
-	    cout << "i: " << i << " / clave: " << k3 << endl;
+//	    cout << "i: " << i << " / clave: " << k3 << endl;
 	    ASSERT_TRUE(c.pertenece(k3));
 	    if (i % 2 == 0) {
 	    	c.remover(k3);
-            cout << "Remueve clave(" << i << ") = " << k3 << endl;
-            c.mostrar_inorder();
+//            cout << "Remueve clave(" << i << ") = " << k3 << endl;
+//            c.mostrar_inorder();
 	    	ASSERT_FALSE(c.pertenece(k3));
 	    }
     }
