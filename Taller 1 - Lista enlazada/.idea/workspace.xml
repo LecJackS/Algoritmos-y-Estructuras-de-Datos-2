@@ -15,12 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="196948ee-4147-4e80-aadb-6cd1271353de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Taller 3 - Tries/.idea/Taller 3 - Tries.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/cmake-build-debug/CMakeFiles/correrTests.dir/tests/conjunto-tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/cmake-build-debug/CMakeFiles/correrTests.dir/tests/conjunto-tests.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/cmake-build-debug/correrTests" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/cmake-build-debug/correrTests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/src/Conjunto.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/src/Conjunto.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/tests/conjunto-tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Taller 2 - Conjunto ABB/tests/conjunto-tests.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +35,7 @@
   <component name="ProjectId" id="1RkKRlt7UXqwdGjKNntYGXVqgLq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Taller 2 - Conjunto ABB" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -139,7 +137,7 @@
       <workItem from="1570892356249" duration="392000" />
       <workItem from="1571007579156" duration="2000" />
       <workItem from="1571702715497" duration="4068000" />
-      <workItem from="1571855340751" duration="659000" />
+      <workItem from="1571855340751" duration="2802000" />
     </task>
     <servers />
   </component>
